@@ -1,0 +1,36 @@
+{
+    "name": "gpupo/pack-symfony-odm",
+    "description": "Pacotes de uso comum para gerenciamento de ODM em projetos com Symfony",
+    "homepage": "https://opensource.gpupo.com/pack-symfony-odm/",
+    "authors": [
+        {
+            "name": "Gilmar Pupo",
+            "email": "contact@gpupo.com"
+        }
+    ],
+    "keywords": ["common", "development"],
+    "license": "MIT",
+    "require": {
+        "gpupo/pack-symfony-common": "*",
+        "doctrine/mongodb-odm-bundle": "^4.1",
+        "alcaeus/mongo-php-adapter": "^1.1",
+        "mongodb/mongodb": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gpupo\\PackSymfonyOdm\\": "src",
+            "Gpupo\\PackSymfonyOdm\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "gpupo/pack-symfony-dev": "*"
+    },
+    "scripts": {
+      "test": "APP_ENV=test simple-phpunit"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
