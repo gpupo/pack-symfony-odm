@@ -9,7 +9,10 @@ before_script:
   - pecl install -f mongodb-stable;
   - composer self-update
   - COMPOSER_MEMORY_LIMIT=5G composer install --prefer-dist
-script: composer run-script test
+script:
+  - composer run-script test
+  - COMPOSER_MEMORY_LIMIT=5G composer require gpupo/pack-symfony-b2c gpupo/pack-symfony-adm
+
 notifications:
   email: false
 branches:
