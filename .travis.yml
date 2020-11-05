@@ -4,6 +4,7 @@ os:
   - linux
 php:
   - 7.4
+  - nightly
 before_script:
   - phpenv config-rm xdebug.ini; echo "memory_limit=8G" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini;
   - pecl install -f mongodb-stable;
