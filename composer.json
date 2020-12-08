@@ -11,10 +11,11 @@
     "keywords": ["common", "development"],
     "license": "MIT",
     "require": {
+        "php": "^8.0",
         "gpupo/pack-symfony-common": "*",
-        "doctrine/mongodb-odm-bundle": "^4.1",
-        "alcaeus/mongo-php-adapter": "^1.1",
-        "mongodb/mongodb": "^1.5"
+        "doctrine/mongodb-odm-bundle": "^4.2",
+        "alcaeus/mongo-php-adapter": "^1.2",
+        "mongodb/mongodb": "^1.8"
     },
     "autoload": {
         "psr-4": {
@@ -23,7 +24,7 @@
         }
     },
     "require-dev": {
-        "gpupo/pack-symfony-dev": "*"
+        "gpupo/pack-symfony-dev": "dev-master"
     },
     "scripts": {
       "test": "APP_ENV=test simple-phpunit"
