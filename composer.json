@@ -12,11 +12,17 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "gpupo/pack-symfony-common": "*",
+        "gpupo/pack-symfony-common": "^4.5 || dev-master",
         "doctrine/mongodb-odm-bundle": "^4.2",
         "alcaeus/mongo-php-adapter": "^1.2",
         "mongodb/mongodb": "^1.8"
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/gpupo/StofDoctrineExtensionsBundle"
+        }
+     ],
     "autoload": {
         "psr-4": {
             "Gpupo\\PackSymfonyOdm\\": "src",
