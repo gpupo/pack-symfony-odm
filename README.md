@@ -1,6 +1,6 @@
 Pacotes de uso comum para gerenciamento de ODM em projetos com Symfony Framework
 
-[![Build Status](https://secure.travis-ci.org/gpupo/pack-symfony-odm.png?branch=master)](http://travis-ci.org/gpupo/pack-symfony-odm)
+[![Build Status](https://secure.travis-ci.org/gpupo/pack-symfony-odm.png?branch=main)](http://travis-ci.org/gpupo/pack-symfony-odm)
 [![Actions Status](https://github.com/gpupo/pack-symfony-odm/workflows/CI/badge.svg)](https://github.com/gpupo/pack-symfony-odm/actions)
 
 ## Requisitos para uso
